@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8e829c8db3e2433a85c9440ef3184696 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_8e829c8db3e2433a85c9440ef3184696" ></div>
+        
+</body>
+<script>    
+    
+            var map_8e829c8db3e2433a85c9440ef3184696 = L.map(
+                "map_8e829c8db3e2433a85c9440ef3184696",
+                {
+                    center: [43.0, -8.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5043aff259144af083386165c6331261 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8e829c8db3e2433a85c9440ef3184696);
+        
+    
+            var marker_b2e18309bf8240b4a9820301968cbc3f = L.marker(
+                [42.0557578, -7.1477834],
+                {}
+            ).addTo(map_8e829c8db3e2433a85c9440ef3184696);
+        
+    
+            var icon_fbcb3d50b60246c1b655d9c4d3641a91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b2e18309bf8240b4a9820301968cbc3f.setIcon(icon_fbcb3d50b60246c1b655d9c4d3641a91);
+        
+    
+        var popup_9b91e44322b549888ec0165b7c7f1650 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76161ce592ae4875af4d7facb4dc5115 = $(`<div id="html_76161ce592ae4875af4d7facb4dc5115" style="width: 100.0%; height: 100.0%;">Asador Churrasco de Ouro (se queres un bo churrasco é o sitio perfecto)</div>`)[0];
+            popup_9b91e44322b549888ec0165b7c7f1650.setContent(html_76161ce592ae4875af4d7facb4dc5115);
+        
+
+        marker_b2e18309bf8240b4a9820301968cbc3f.bindPopup(popup_9b91e44322b549888ec0165b7c7f1650)
+        ;
+
+        
+    
+    
+            marker_b2e18309bf8240b4a9820301968cbc3f.bindTooltip(
+                `<div>
+                     Asador Churrasco de Ouro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5ce1f54f78164af992613b72368bea45 = L.marker(
+                [42.4148497, -6.98218],
+                {}
+            ).addTo(map_8e829c8db3e2433a85c9440ef3184696);
+        
+    
+            var icon_de9366ad85d145cfb5f53eec96ee1946 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_5ce1f54f78164af992613b72368bea45.setIcon(icon_de9366ad85d145cfb5f53eec96ee1946);
+        
+    
+        var popup_29a7876ef2c545658da508dc366af0ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8371309ed854e69b4a185d8788a81da = $(`<div id="html_c8371309ed854e69b4a185d8788a81da" style="width: 100.0%; height: 100.0%;">Guigurri (se non queres quedar sen comer vai con reserva)</div>`)[0];
+            popup_29a7876ef2c545658da508dc366af0ba.setContent(html_c8371309ed854e69b4a185d8788a81da);
+        
+
+        marker_5ce1f54f78164af992613b72368bea45.bindPopup(popup_29a7876ef2c545658da508dc366af0ba)
+        ;
+
+        
+    
+    
+            marker_5ce1f54f78164af992613b72368bea45.bindTooltip(
+                `<div>
+                     Guigurri
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a0f939dab99240bd8eb5392c383acaef = L.marker(
+                [42.3352432, -7.865555],
+                {}
+            ).addTo(map_8e829c8db3e2433a85c9440ef3184696);
+        
+    
+            var icon_f81f1fd095d94a089a1825e59ae61f37 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_a0f939dab99240bd8eb5392c383acaef.setIcon(icon_f81f1fd095d94a089a1825e59ae61f37);
+        
+    
+        var popup_517b98a96aca4ed88422a5ba3e42e47a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba3b74debaba4bdcba449e9841669642 = $(`<div id="html_ba3b74debaba4bdcba449e9841669642" style="width: 100.0%; height: 100.0%;">Gran Muralla Ourense (tampouco é gran cousa pero o resto de restaurantes non mos pillaba)</div>`)[0];
+            popup_517b98a96aca4ed88422a5ba3e42e47a.setContent(html_ba3b74debaba4bdcba449e9841669642);
+        
+
+        marker_a0f939dab99240bd8eb5392c383acaef.bindPopup(popup_517b98a96aca4ed88422a5ba3e42e47a)
+        ;
+
+        
+    
+    
+            marker_a0f939dab99240bd8eb5392c383acaef.bindTooltip(
+                `<div>
+                     Gran Muralla Ourense
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_de8b20017592475baad130ec2d3916f3 = L.marker(
+                [43.3726456, -8.4243152],
+                {}
+            ).addTo(map_8e829c8db3e2433a85c9440ef3184696);
+        
+    
+            var icon_e70913d4b6b545d8a41b6c22b909f4ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_de8b20017592475baad130ec2d3916f3.setIcon(icon_e70913d4b6b545d8a41b6c22b909f4ad);
+        
+    
+        var popup_70d2045754db4b77a75c283258e1bb97 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5311c8b4e07642259991bf02f1415419 = $(`<div id="html_5311c8b4e07642259991bf02f1415419" style="width: 100.0%; height: 100.0%;">Barazal III (O mellor pincho de tortilla da cidade)</div>`)[0];
+            popup_70d2045754db4b77a75c283258e1bb97.setContent(html_5311c8b4e07642259991bf02f1415419);
+        
+
+        marker_de8b20017592475baad130ec2d3916f3.bindPopup(popup_70d2045754db4b77a75c283258e1bb97)
+        ;
+
+        
+    
+    
+            marker_de8b20017592475baad130ec2d3916f3.bindTooltip(
+                `<div>
+                     Barazal III
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a634bba71f949d1820cbea912bb3abf = L.marker(
+                [43.3806571, -8.3996016],
+                {}
+            ).addTo(map_8e829c8db3e2433a85c9440ef3184696);
+        
+    
+            var icon_775dc42b3ba0403dac2475c3ba97556b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_1a634bba71f949d1820cbea912bb3abf.setIcon(icon_775dc42b3ba0403dac2475c3ba97556b);
+        
+    
+        var popup_fb5fcf2bd20743baaae8df9a94b6e230 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66f03e8234c14085b6afe6e47d808e6f = $(`<div id="html_66f03e8234c14085b6afe6e47d808e6f" style="width: 100.0%; height: 100.0%;">O Fiuza (O mellor pulpo da Coruña)</div>`)[0];
+            popup_fb5fcf2bd20743baaae8df9a94b6e230.setContent(html_66f03e8234c14085b6afe6e47d808e6f);
+        
+
+        marker_1a634bba71f949d1820cbea912bb3abf.bindPopup(popup_fb5fcf2bd20743baaae8df9a94b6e230)
+        ;
+
+        
+    
+    
+            marker_1a634bba71f949d1820cbea912bb3abf.bindTooltip(
+                `<div>
+                     O Fiuza
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_273c5aab878f41a1961e0e0f5b8263b4 = L.marker(
+                [43.3715461, -8.4202061],
+                {}
+            ).addTo(map_8e829c8db3e2433a85c9440ef3184696);
+        
+    
+            var icon_116b953d8fe34b83afc1bf5a826d02c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_273c5aab878f41a1961e0e0f5b8263b4.setIcon(icon_116b953d8fe34b83afc1bf5a826d02c3);
+        
+    
+        var popup_b6014820bb4741029219b254032c4bd8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_420a8329050f4d57aa05af084b249c3c = $(`<div id="html_420a8329050f4d57aa05af084b249c3c" style="width: 100.0%; height: 100.0%;">Os Ventis (Tapas baratas e unha terraza macanuda)</div>`)[0];
+            popup_b6014820bb4741029219b254032c4bd8.setContent(html_420a8329050f4d57aa05af084b249c3c);
+        
+
+        marker_273c5aab878f41a1961e0e0f5b8263b4.bindPopup(popup_b6014820bb4741029219b254032c4bd8)
+        ;
+
+        
+    
+    
+            marker_273c5aab878f41a1961e0e0f5b8263b4.bindTooltip(
+                `<div>
+                     Os Ventis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bbd9d0ebdb0545f48540b85e21ddaf9e = L.marker(
+                [42.84702915416201, -8.579185902560623],
+                {}
+            ).addTo(map_8e829c8db3e2433a85c9440ef3184696);
+        
+    
+            var icon_3b5aac120b4a425daa3805b872635898 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_bbd9d0ebdb0545f48540b85e21ddaf9e.setIcon(icon_3b5aac120b4a425daa3805b872635898);
+        
+    
+        var popup_0400d3894edc45afab27a165c3ae0511 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f613d21174774943a500cc2a112b1274 = $(`<div id="html_f613d21174774943a500cc2a112b1274" style="width: 100.0%; height: 100.0%;">La transtienda del 7 (O mellor local do Milladoiro)</div>`)[0];
+            popup_0400d3894edc45afab27a165c3ae0511.setContent(html_f613d21174774943a500cc2a112b1274);
+        
+
+        marker_bbd9d0ebdb0545f48540b85e21ddaf9e.bindPopup(popup_0400d3894edc45afab27a165c3ae0511)
+        ;
+
+        
+    
+    
+            marker_bbd9d0ebdb0545f48540b85e21ddaf9e.bindTooltip(
+                `<div>
+                     La transtienda del 7
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e8b12af81acf4cb89a70e64ec681e039 = L.marker(
+                [42.87804158487501, -8.543761146096536],
+                {}
+            ).addTo(map_8e829c8db3e2433a85c9440ef3184696);
+        
+    
+            var icon_2a26731386244046818fc2328ff666c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_e8b12af81acf4cb89a70e64ec681e039.setIcon(icon_2a26731386244046818fc2328ff666c3);
+        
+    
+        var popup_c4a5de7767414e8e853b4575478fc52d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8faf8c76aa746c0a478de8d41708f0d = $(`<div id="html_a8faf8c76aa746c0a478de8d41708f0d" style="width: 100.0%; height: 100.0%;">La otra Tita (Terraza típica de Santiago)</div>`)[0];
+            popup_c4a5de7767414e8e853b4575478fc52d.setContent(html_a8faf8c76aa746c0a478de8d41708f0d);
+        
+
+        marker_e8b12af81acf4cb89a70e64ec681e039.bindPopup(popup_c4a5de7767414e8e853b4575478fc52d)
+        ;
+
+        
+    
+    
+            marker_e8b12af81acf4cb89a70e64ec681e039.bindTooltip(
+                `<div>
+                     La otra Tita
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f77fdaf1b25841c3b7eef977c7b95adb = L.marker(
+                [42.87548845832264, -8.543599613085995],
+                {}
+            ).addTo(map_8e829c8db3e2433a85c9440ef3184696);
+        
+    
+            var icon_874288ea0e4946669bb88e17113be2ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_f77fdaf1b25841c3b7eef977c7b95adb.setIcon(icon_874288ea0e4946669bb88e17113be2ef);
+        
+    
+        var popup_8136421648644e7a8b22403645324bdd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19d9f898113144b1b3fbde19088e973e = $(`<div id="html_19d9f898113144b1b3fbde19088e973e" style="width: 100.0%; height: 100.0%;">La Galiciana (Mercado gastronómico en Santiago)</div>`)[0];
+            popup_8136421648644e7a8b22403645324bdd.setContent(html_19d9f898113144b1b3fbde19088e973e);
+        
+
+        marker_f77fdaf1b25841c3b7eef977c7b95adb.bindPopup(popup_8136421648644e7a8b22403645324bdd)
+        ;
+
+        
+    
+    
+            marker_f77fdaf1b25841c3b7eef977c7b95adb.bindTooltip(
+                `<div>
+                     La Galiciana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eb3f14bbb7be452ca34b8cf21777928c = L.marker(
+                [42.3391856, -7.2539228],
+                {}
+            ).addTo(map_8e829c8db3e2433a85c9440ef3184696);
+        
+    
+            var icon_82ed45b8d45e4a91b6720f04a5ff145c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_eb3f14bbb7be452ca34b8cf21777928c.setIcon(icon_82ed45b8d45e4a91b6720f04a5ff145c);
+        
+    
+        var popup_47f7813e5b6b4a95bf7c9040840b8466 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3abf63356574e0eae6deb981dccfc74 = $(`<div id="html_d3abf63356574e0eae6deb981dccfc74" style="width: 100.0%; height: 100.0%;">Quintela Trives (Las pizzas están buenas)</div>`)[0];
+            popup_47f7813e5b6b4a95bf7c9040840b8466.setContent(html_d3abf63356574e0eae6deb981dccfc74);
+        
+
+        marker_eb3f14bbb7be452ca34b8cf21777928c.bindPopup(popup_47f7813e5b6b4a95bf7c9040840b8466)
+        ;
+
+        
+    
+    
+            marker_eb3f14bbb7be452ca34b8cf21777928c.bindTooltip(
+                `<div>
+                     Quintela Trives
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0afa6c951a714cbba00e016fe654aec4 = L.marker(
+                [42.3400113, -7.2530729],
+                {}
+            ).addTo(map_8e829c8db3e2433a85c9440ef3184696);
+        
+    
+            var icon_fcd9749793e74e3488a38177d99a4cbd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_0afa6c951a714cbba00e016fe654aec4.setIcon(icon_fcd9749793e74e3488a38177d99a4cbd);
+        
+    
+        var popup_afb9d5337fa94711bf5be954b6d21058 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb94cbfed2394828a1e3ac974303ac0d = $(`<div id="html_fb94cbfed2394828a1e3ac974303ac0d" style="width: 100.0%; height: 100.0%;">Café Bar Sky (Hamburguesas y futbolin)</div>`)[0];
+            popup_afb9d5337fa94711bf5be954b6d21058.setContent(html_fb94cbfed2394828a1e3ac974303ac0d);
+        
+
+        marker_0afa6c951a714cbba00e016fe654aec4.bindPopup(popup_afb9d5337fa94711bf5be954b6d21058)
+        ;
+
+        
+    
+    
+            marker_0afa6c951a714cbba00e016fe654aec4.bindTooltip(
+                `<div>
+                     Café Bar Sky
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_47625d6248144b399d496c25532a019c = L.marker(
+                [42.3392785, -7.2537755],
+                {}
+            ).addTo(map_8e829c8db3e2433a85c9440ef3184696);
+        
+    
+            var icon_b567e37cbffc404884900b4f6b4a2f15 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_47625d6248144b399d496c25532a019c.setIcon(icon_b567e37cbffc404884900b4f6b4a2f15);
+        
+    
+        var popup_825f398678374b559f7a345380f03397 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18df0f6635a046a4b018918c2227ee75 = $(`<div id="html_18df0f6635a046a4b018918c2227ee75" style="width: 100.0%; height: 100.0%;">Panadería Caneda (Buen sitio para pillar bicas y empanadas)</div>`)[0];
+            popup_825f398678374b559f7a345380f03397.setContent(html_18df0f6635a046a4b018918c2227ee75);
+        
+
+        marker_47625d6248144b399d496c25532a019c.bindPopup(popup_825f398678374b559f7a345380f03397)
+        ;
+
+        
+    
+    
+            marker_47625d6248144b399d496c25532a019c.bindTooltip(
+                `<div>
+                     Panadería Caneda
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a0d413bfbf37420d8b21833620775646 = L.marker(
+                [43.1495633, -7.0175267],
+                {}
+            ).addTo(map_8e829c8db3e2433a85c9440ef3184696);
+        
+    
+            var icon_b66baff05ec244f895aec0e1106f612e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_a0d413bfbf37420d8b21833620775646.setIcon(icon_b66baff05ec244f895aec0e1106f612e);
+        
+    
+        var popup_47c171ff319948aca6d1c11844a8dc50 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42139eed65184d748b062e161c8d3535 = $(`<div id="html_42139eed65184d748b062e161c8d3535" style="width: 100.0%; height: 100.0%;">Meson Catro Ventos  (Todo cojonudo)</div>`)[0];
+            popup_47c171ff319948aca6d1c11844a8dc50.setContent(html_42139eed65184d748b062e161c8d3535);
+        
+
+        marker_a0d413bfbf37420d8b21833620775646.bindPopup(popup_47c171ff319948aca6d1c11844a8dc50)
+        ;
+
+        
+    
+    
+            marker_a0d413bfbf37420d8b21833620775646.bindTooltip(
+                `<div>
+                     Meson Catro Ventos 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_68109583d285424aac9ce946b8c537e6 = L.marker(
+                [43.1266829, -7.0673012],
+                {}
+            ).addTo(map_8e829c8db3e2433a85c9440ef3184696);
+        
+    
+            var icon_be46fe8bc67e4adc93fe6738ed617b67 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_68109583d285424aac9ce946b8c537e6.setIcon(icon_be46fe8bc67e4adc93fe6738ed617b67);
+        
+    
+        var popup_d6e3ff12155c456d868784c2a960087a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44ad273dd0594db7aca707047486ade2 = $(`<div id="html_44ad273dd0594db7aca707047486ade2" style="width: 100.0%; height: 100.0%;">Pulpería Caldeira  (Nada mellor que o pulpo lucense)</div>`)[0];
+            popup_d6e3ff12155c456d868784c2a960087a.setContent(html_44ad273dd0594db7aca707047486ade2);
+        
+
+        marker_68109583d285424aac9ce946b8c537e6.bindPopup(popup_d6e3ff12155c456d868784c2a960087a)
+        ;
+
+        
+    
+    
+            marker_68109583d285424aac9ce946b8c537e6.bindTooltip(
+                `<div>
+                     Pulpería Caldeira 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_789fc71666b04296950f07e7aef7f867 = L.marker(
+                [43.1259409, -7.0681978],
+                {}
+            ).addTo(map_8e829c8db3e2433a85c9440ef3184696);
+        
+    
+            var icon_ed38cd5c21f341f281dbd818e663bcc7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_789fc71666b04296950f07e7aef7f867.setIcon(icon_ed38cd5c21f341f281dbd818e663bcc7);
+        
+    
+        var popup_362c0d6d58ec48878a6ad55913df2efa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_edb8d5cb8ad14dd7b465fc389de8d276 = $(`<div id="html_edb8d5cb8ad14dd7b465fc389de8d276" style="width: 100.0%; height: 100.0%;">Cantábrico (Aquí comeu Mel Gibson)</div>`)[0];
+            popup_362c0d6d58ec48878a6ad55913df2efa.setContent(html_edb8d5cb8ad14dd7b465fc389de8d276);
+        
+
+        marker_789fc71666b04296950f07e7aef7f867.bindPopup(popup_362c0d6d58ec48878a6ad55913df2efa)
+        ;
+
+        
+    
+    
+            marker_789fc71666b04296950f07e7aef7f867.bindTooltip(
+                `<div>
+                     Cantábrico
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_525045a8382f4bf9a9dfea1a0afc5660 = L.marker(
+                [43.4801562, -8.2413991],
+                {}
+            ).addTo(map_8e829c8db3e2433a85c9440ef3184696);
+        
+    
+            var icon_9833a73589274b7b82ef606aafc9c7f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_525045a8382f4bf9a9dfea1a0afc5660.setIcon(icon_9833a73589274b7b82ef606aafc9c7f7);
+        
+    
+        var popup_9baea80dda544587bec3ceabe6f4dea7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_322ff8a1619f4f13ac54a55855adc71e = $(`<div id="html_322ff8a1619f4f13ac54a55855adc71e" style="width: 100.0%; height: 100.0%;">El Cantegril (A lasaña e as pizzas están boísimas)</div>`)[0];
+            popup_9baea80dda544587bec3ceabe6f4dea7.setContent(html_322ff8a1619f4f13ac54a55855adc71e);
+        
+
+        marker_525045a8382f4bf9a9dfea1a0afc5660.bindPopup(popup_9baea80dda544587bec3ceabe6f4dea7)
+        ;
+
+        
+    
+    
+            marker_525045a8382f4bf9a9dfea1a0afc5660.bindTooltip(
+                `<div>
+                     El Cantegril
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_66a765cbda09464babb938a62999a7fc = L.marker(
+                [43.4844276, -8.2339718],
+                {}
+            ).addTo(map_8e829c8db3e2433a85c9440ef3184696);
+        
+    
+            var icon_9fa54f8d643d43eea0b569ce08073ff6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_66a765cbda09464babb938a62999a7fc.setIcon(icon_9fa54f8d643d43eea0b569ce08073ff6);
+        
+    
+        var popup_005c66c5e84844f794ce70cdde829bee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e2ccf418b00441691c7cfc7ff2c5d21 = $(`<div id="html_3e2ccf418b00441691c7cfc7ff2c5d21" style="width: 100.0%; height: 100.0%;">La Casita (Tapas grandes con moi bo prezo)</div>`)[0];
+            popup_005c66c5e84844f794ce70cdde829bee.setContent(html_3e2ccf418b00441691c7cfc7ff2c5d21);
+        
+
+        marker_66a765cbda09464babb938a62999a7fc.bindPopup(popup_005c66c5e84844f794ce70cdde829bee)
+        ;
+
+        
+    
+    
+            marker_66a765cbda09464babb938a62999a7fc.bindTooltip(
+                `<div>
+                     La Casita
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aa200709e0f14d42beb7a305f7f39537 = L.marker(
+                [43.4886879, -8.2215793],
+                {}
+            ).addTo(map_8e829c8db3e2433a85c9440ef3184696);
+        
+    
+            var icon_a156e6c5bc574588988bfe39a0da950b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_aa200709e0f14d42beb7a305f7f39537.setIcon(icon_a156e6c5bc574588988bfe39a0da950b);
+        
+    
+        var popup_ee6234bcd99e4abfa0e12b837878b9bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa82e37a0059457cad43aa6e9dd078e6 = $(`<div id="html_aa82e37a0059457cad43aa6e9dd078e6" style="width: 100.0%; height: 100.0%;">Mesón A Canfurnada (Gústanme moito as tostas)</div>`)[0];
+            popup_ee6234bcd99e4abfa0e12b837878b9bd.setContent(html_aa82e37a0059457cad43aa6e9dd078e6);
+        
+
+        marker_aa200709e0f14d42beb7a305f7f39537.bindPopup(popup_ee6234bcd99e4abfa0e12b837878b9bd)
+        ;
+
+        
+    
+    
+            marker_aa200709e0f14d42beb7a305f7f39537.bindTooltip(
+                `<div>
+                     Mesón A Canfurnada
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6a8362469ba74b57949162ae896e11ec = L.marker(
+                [43.3203754, -8.6071927],
+                {}
+            ).addTo(map_8e829c8db3e2433a85c9440ef3184696);
+        
+    
+            var icon_3d8ef9f47aec4e1095b88860e8eb86da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_6a8362469ba74b57949162ae896e11ec.setIcon(icon_3d8ef9f47aec4e1095b88860e8eb86da);
+        
+    
+        var popup_c3b863190aa24ea5a2eb4df65187c9c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be8049cfa8df45298665e37d04e1d3e7 = $(`<div id="html_be8049cfa8df45298665e37d04e1d3e7" style="width: 100.0%; height: 100.0%;">Asteria Beach (unhas tapas moi boas con vistas o mar)</div>`)[0];
+            popup_c3b863190aa24ea5a2eb4df65187c9c4.setContent(html_be8049cfa8df45298665e37d04e1d3e7);
+        
+
+        marker_6a8362469ba74b57949162ae896e11ec.bindPopup(popup_c3b863190aa24ea5a2eb4df65187c9c4)
+        ;
+
+        
+    
+    
+            marker_6a8362469ba74b57949162ae896e11ec.bindTooltip(
+                `<div>
+                     Asteria Beach
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_58b6828f366448ffa230f1987857c1c6 = L.marker(
+                [43.3379052, -8.37622941364679],
+                {}
+            ).addTo(map_8e829c8db3e2433a85c9440ef3184696);
+        
+    
+            var icon_0645bfacdc364690b98a45866464b865 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_58b6828f366448ffa230f1987857c1c6.setIcon(icon_0645bfacdc364690b98a45866464b865);
+        
+    
+        var popup_e87dfc8501a54ccaa8cffba81c2b6971 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70a8bea1aa464535ad21c2deda2652ae = $(`<div id="html_70a8bea1aa464535ad21c2deda2652ae" style="width: 100.0%; height: 100.0%;">Pizzeria Picolo Mondo (unhas pizzas que nunca defraudan)</div>`)[0];
+            popup_e87dfc8501a54ccaa8cffba81c2b6971.setContent(html_70a8bea1aa464535ad21c2deda2652ae);
+        
+
+        marker_58b6828f366448ffa230f1987857c1c6.bindPopup(popup_e87dfc8501a54ccaa8cffba81c2b6971)
+        ;
+
+        
+    
+    
+            marker_58b6828f366448ffa230f1987857c1c6.bindTooltip(
+                `<div>
+                     Pizzeria Picolo Mondo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5a6ea8242f9343f5b28812e2d78c3d79 = L.marker(
+                [43.317896, -8.3668768],
+                {}
+            ).addTo(map_8e829c8db3e2433a85c9440ef3184696);
+        
+    
+            var icon_08932c43b73a49e5938fc3754d329ed6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_5a6ea8242f9343f5b28812e2d78c3d79.setIcon(icon_08932c43b73a49e5938fc3754d329ed6);
+        
+    
+        var popup_69b4f0107b0243b0804878c8657cca7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d6cb654c532d4e53979adc2b72dcd3b7 = $(`<div id="html_d6cb654c532d4e53979adc2b72dcd3b7" style="width: 100.0%; height: 100.0%;">Trocadero (unhas tapas moi boas nunha terraza que sempre da o sol)</div>`)[0];
+            popup_69b4f0107b0243b0804878c8657cca7b.setContent(html_d6cb654c532d4e53979adc2b72dcd3b7);
+        
+
+        marker_5a6ea8242f9343f5b28812e2d78c3d79.bindPopup(popup_69b4f0107b0243b0804878c8657cca7b)
+        ;
+
+        
+    
+    
+            marker_5a6ea8242f9343f5b28812e2d78c3d79.bindTooltip(
+                `<div>
+                     Trocadero
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b4c8306514d482e87829a72f970f214 = L.marker(
+                [43.3701254, -8.4011246],
+                {}
+            ).addTo(map_8e829c8db3e2433a85c9440ef3184696);
+        
+    
+            var icon_c583fc4892314e41a7c52be51df7e3ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_5b4c8306514d482e87829a72f970f214.setIcon(icon_c583fc4892314e41a7c52be51df7e3ae);
+        
+    
+        var popup_8e7eac0ffbbf4b88bd32f87f798e5772 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1837273d4679469c9907a5d9b850f4af = $(`<div id="html_1837273d4679469c9907a5d9b850f4af" style="width: 100.0%; height: 100.0%;">O alcume (Los calamares están muy buenos )</div>`)[0];
+            popup_8e7eac0ffbbf4b88bd32f87f798e5772.setContent(html_1837273d4679469c9907a5d9b850f4af);
+        
+
+        marker_5b4c8306514d482e87829a72f970f214.bindPopup(popup_8e7eac0ffbbf4b88bd32f87f798e5772)
+        ;
+
+        
+    
+    
+            marker_5b4c8306514d482e87829a72f970f214.bindTooltip(
+                `<div>
+                     O alcume
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0e10716f0ae9444eb70b8e81e9ec3a0b = L.marker(
+                [43.3371936, -8.3770364],
+                {}
+            ).addTo(map_8e829c8db3e2433a85c9440ef3184696);
+        
+    
+            var icon_f869855d8f614439a666ab9f6e29eaa3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_0e10716f0ae9444eb70b8e81e9ec3a0b.setIcon(icon_f869855d8f614439a666ab9f6e29eaa3);
+        
+    
+        var popup_df3f61904c494b63bf1ba264bc35d7be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c27ae6ab1454b75a3d18c3711d609c0 = $(`<div id="html_7c27ae6ab1454b75a3d18c3711d609c0" style="width: 100.0%; height: 100.0%;">palloza perillo (El pulpo está buenísimo )</div>`)[0];
+            popup_df3f61904c494b63bf1ba264bc35d7be.setContent(html_7c27ae6ab1454b75a3d18c3711d609c0);
+        
+
+        marker_0e10716f0ae9444eb70b8e81e9ec3a0b.bindPopup(popup_df3f61904c494b63bf1ba264bc35d7be)
+        ;
+
+        
+    
+    
+            marker_0e10716f0ae9444eb70b8e81e9ec3a0b.bindTooltip(
+                `<div>
+                     palloza perillo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_65b33ceec4c64cebbf980f508c957a24 = L.marker(
+                [43.5343185, -7.0419728],
+                {}
+            ).addTo(map_8e829c8db3e2433a85c9440ef3184696);
+        
+    
+            var icon_e608ec6d664b46779e1fde94e5b9d1da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_65b33ceec4c64cebbf980f508c957a24.setIcon(icon_e608ec6d664b46779e1fde94e5b9d1da);
+        
+    
+        var popup_ef7a18495f40477292d8b8fd139b3b7d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_921fb0cb44f747d69c26d857ff518e71 = $(`<div id="html_921fb0cb44f747d69c26d857ff518e71" style="width: 100.0%; height: 100.0%;">o lar de manolo (El mejor cachopo que he probado)</div>`)[0];
+            popup_ef7a18495f40477292d8b8fd139b3b7d.setContent(html_921fb0cb44f747d69c26d857ff518e71);
+        
+
+        marker_65b33ceec4c64cebbf980f508c957a24.bindPopup(popup_ef7a18495f40477292d8b8fd139b3b7d)
+        ;
+
+        
+    
+    
+            marker_65b33ceec4c64cebbf980f508c957a24.bindTooltip(
+                `<div>
+                     o lar de manolo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            map_8e829c8db3e2433a85c9440ef3184696.fitBounds(
+                [["43.3715461", "-8.3996016"], ["43.3806571", "-8.4243152"]],
+                {}
+            );
+        
+</script>
