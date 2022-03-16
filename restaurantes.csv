@@ -1,4 +1,7 @@
-nome;latitude;lonxitude;comentario
-Barazal III;43.3726456;-8.4243152;O mellor pincho de tortilla da cidade
-O Fiuza;43.3806571;-8.3996016;O mellor pulpo da Coruña
-Os Ventis;43.3715461;-8.4202061;Tapas baratas e unha terraza macanuda
+nome,latitude,lonxitude,comentario
+Barazal III,43.3726456,-8.4243152,O mellor pincho de tortilla da cidade
+O Fiuza,43.3806571,-8.3996016,O mellor pulpo da Coruña
+Os Ventis,43.3715461,-8.4202061,Tapas baratas e unha terraza macanuda
+O alcume,43.3701254 ,-8.4011246 ,Los calamares están muy buenos 
+palloza perillo ,43.3371936 ,-8.3770364 ,El pulpo está buenísimo 
+ o lar de manolo,43.5343185 ,-7.0419728 ,El mejor cachopo que he probado 
