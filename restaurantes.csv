@@ -1,28 +1,31 @@
-nome;latitude;lonxitude;comentario
-Asador Churrasco de Ouro;42.0557578;-7.1477834;se queres un bo churrasco é o sitio perfecto
-Guigurri;42.4148497;-6.98218;se non queres quedar sen comer vai con reserva
-Gran Muralla Ourense;42.3352432;-7.865555;tampouco é gran cousa pero o resto de restaurantes non mos pillaba
-Barazal III;43.3726456;-8.4243152;O mellor pincho de tortilla da cidade
-O Fiuza;43.3806571;-8.3996016;O mellor pulpo da Coruña
-Os Ventis;43.3715461;-8.4202061;Tapas baratas e unha terraza macanuda
-La transtienda del 7;42.84702915416201;-8.579185902560623;O mellor local do Milladoiro
-La otra Tita;42.87804158487501;-8.543761146096536;Terraza típica de Santiago
-La Galiciana;42.87548845832264;-8.543599613085995;Mercado gastronómico en Santiago
-Quintela Trives;42.3391856;-7.2539228;Las pizzas están buenas
-Café Bar Sky;42.3400113;-7.2530729;Hamburguesas y futbolin
-Panadería Caneda;42.3392785;-7.2537755;Buen sitio para pillar bicas y empanadas
-Meson Catro Ventos ;43.1495633;-7.0175267;Todo cojonudo
-Pulpería Caldeira ;43.1266829;-7.0673012;Nada mellor que o pulpo lucense
-Cantábrico;43.1259409;-7.0681978;Aquí comeu Mel Gibson
-El Cantegril;43.4801562;-8.2413991;A lasaña e as pizzas están boísimas
-La Casita;43.4844276;-8.2339718;Tapas grandes con moi bo prezo
-Mesón A Canfurnada;43.4886879;-8.2215793;Gústanme moito as tostas
-Asteria Beach;43.3203754;-8.6071927;unhas tapas moi boas con vistas o mar
-Pizzeria Picolo Mondo;43.3379052;-8.37622941364679;unhas pizzas que nunca defraudan
-La Bombilla;43.3706485,-8.3995902;Grandes pinchos baratos
-Mesón Sobrado;43.3523273,-8.4130992;Quédame preto da casa
-Acrunia;43.3542469,-8.4150877;Rica tarta de galleta
-Trocadero;43.317896;-8.3668768;unhas tapas moi boas nunha terraza que sempre da o sol
-O alcume;43.3701254;-8.4011246;Los calamares están muy buenos 
-palloza perillo;43.3371936;-8.3770364;El pulpo está buenísimo 
-o lar de manolo;43.5343185;-7.0419728;El mejor cachopo que he probado
+nome,latitude,lonxitude,comentario
+Asador Churrasco de Ouro,42.0557578,-7.1477834,se queres un bo churrasco é o sitio perfecto
+Guigurri,42.4148497,-6.98218,se non queres quedar sen comer vai con reserva
+Gran Muralla Ourense,42.3352432,-7.865555,tampouco é gran cousa pero o resto de restaurantes non mos pillaba
+Barazal III,43.3726456,-8.4243152,O mellor pincho de tortilla da cidade
+O Fiuza,43.3806571,-8.3996016,O mellor pulpo da Coruña
+Os Ventis,43.3715461,-8.4202061,Tapas baratas e unha terraza macanuda
+La transtienda del 7,42.84702915416201,-8.579185902560623,O mellor local do Milladoiro
+La otra Tita,42.87804158487501,-8.543761146096536,Terraza típica de Santiago
+La Galiciana,42.87548845832264,-8.543599613085995,Mercado gastronómico en Santiago
+Quintela Trives,42.3391856,-7.2539228,Las pizzas están buenas
+Café Bar Sky,42.3400113,-7.2530729,Hamburguesas y futbolin
+Panadería Caneda,42.3392785,-7.2537755,Buen sitio para pillar bicas y empanadas
+Meson Catro Ventos ,43.1495633,-7.0175267,Todo cojonudo
+Pulpería Caldeira ,43.1266829,-7.0673012,Nada mellor que o pulpo lucense
+Cantábrico,43.1259409,-7.0681978,Aquí comeu Mel Gibson
+El Cantegril,43.4801562,-8.2413991,A lasaña e as pizzas están boísimas
+La Casita,43.4844276,-8.2339718,Tapas grandes con moi bo prezo
+Mesón A Canfurnada,43.4886879,-8.2215793,Gústanme moito as tostas
+Asteria Beach,43.3203754,-8.6071927,unhas tapas moi boas con vistas o mar
+Pizzeria Picolo Mondo,43.3379052,-8.37622941364679,unhas pizzas que nunca defraudan
+La Bombilla,43.3706485,-8.3995902,Grandes pinchos baratos
+Mesón Sobrado,43.3523273,-8.4130992,Quédame preto da casa
+Acrunia,43.3542469,-8.4150877,Rica tarta de galleta
+Trocadero,43.317896,-8.3668768,unhas tapas moi boas nunha terraza que sempre da o sol
+O alcume,43.3701254,-8.4011246,Los calamares están muy buenos 
+palloza perillo,43.3371936,-8.3770364,El pulpo está buenísimo 
+o lar de manolo,43.5343185,-7.0419728,El mejor cachopo que he probado
+Pizzeria Milio,42.9124431,-8.7358186,As mellores Pizzas dos arredores de Santiago por un módico prezo
+A Galerna,42.8610761,-8.6525637,"Gran restaurante que ofrece un bo menú do día por un prezo asequible, moi recomendable o risotto de pulpo"
+O Pescador,42.7588694,-8.9493873,"Lugar moi concorrido no verán pola sua localización no peirao de Portosín, coñecido polos seus bocatas de calamares e de peituga de polo"
